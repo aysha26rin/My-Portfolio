@@ -1612,3 +1612,166 @@ textarea.form-control-custom {
     height: 220px;
   }
 }
+
+/* ========== Project Detail Page ========== */
+.project-hero {
+  padding: 160px 0 80px;
+  background: linear-gradient(180deg, rgba(168, 85, 247, 0.05) 0%, transparent 100%);
+  text-align: center;
+}
+
+.project-category-tag {
+  display: inline-block;
+  padding: 6px 16px;
+  background: rgba(168, 85, 247, 0.1);
+  border: 1px solid var(--accent-1);
+  border-radius: 50px;
+  color: var(--accent-1);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.project-main-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+  font-family: var(--font-heading);
+}
+
+.project-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.project-content-section {
+  padding: 80px 0;
+}
+
+.project-info-card {
+  background: var(--bg-glass);
+  border: 1px solid var(--border-color);
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  transition: var(--transition-smooth);
+}
+
+.project-info-card:hover {
+  border-color: var(--border-glow);
+  box-shadow: var(--shadow-glow);
+}
+
+.info-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent-1);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.info-title {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--text-primary);
+}
+
+.info-text {
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.gallery-item {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  transition: var(--transition-smooth);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-smooth);
+}
+
+.gallery-item:hover {
+  transform: scale(1.02);
+  border-color: var(--accent-1);
+  box-shadow: var(--shadow-md);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.tool-icon-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.tool-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  transition: var(--transition-smooth);
+}
+
+.tool-badge:hover {
+  background: var(--bg-glass);
+  border-color: var(--accent-1);
+  transform: translateY(-5px);
+}
+
+.tool-badge i {
+  font-size: 1.2rem;
+  color: var(--accent-1);
+}
+
+.tool-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+}
+
+.results-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+  color: var(--text-secondary);
+}
+
+.results-list li i {
+  color: #22c55e;
+  font-size: 1.2rem;
+}
+
+.back-btn-container {
+  margin-top: 60px;
+  text-align: center;
+}
