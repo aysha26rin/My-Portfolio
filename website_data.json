@@ -1,0 +1,109 @@
+{
+  "websiteDetails": {
+    "title": "Aysha Nasrin M | Creative Designer & Freelancer",
+    "author": "Aysha Nasrin M",
+    "description": "Aysha Nasrin M - Creative Freelancer, Canva Designer & UI/UX Designer. Explore my portfolio showcasing stunning designs and creative solutions.",
+    "keywords": [
+      "Aysha Nasrin",
+      "Portfolio",
+      "Freelancer",
+      "Canva Designer",
+      "UI/UX Designer"
+    ],
+    "heroSection": {
+      "greeting": "Hi, I'm Aysha Nasrin M",
+      "roles": [
+        "Freelancer",
+        "Canva Designer",
+        "UI/UX Design",
+        "Developer"
+      ],
+      "description": "Passionate BCA graduate creating beautiful, user-centered designs. Specializing in Canva design, UI/UX, and creative problem-solving.",
+      "stats": [
+        {
+          "label": "Projects Done",
+          "value": "15+"
+        },
+        {
+          "label": "Happy Clients",
+          "value": "10+"
+        },
+        {
+          "label": "Academic Score",
+          "value": "85%"
+        },
+        {
+          "label": "Skills Mastered",
+          "value": "3+"
+        }
+      ]
+    },
+    "contactInfo": {
+      "email": "aysha@example.com",
+      "location": "Tamil Nadu, India",
+      "workingHours": "Mon - Fri: 9AM - 6PM"
+    }
+  },
+  "design": {
+    "fonts": {
+      "heading": "'Outfit', sans-serif",
+      "body": "'Inter', sans-serif",
+      "mono": "'Space Grotesk', monospace"
+    },
+    "colors": {
+      "bgPrimary": "#0a0a0f",
+      "bgSecondary": "#12121a",
+      "bgTertiary": "#1a1a2e",
+      "textPrimary": "#f0f0f5",
+      "textSecondary": "#a0a0b8",
+      "accents": {
+        "purple": "#a855f7",
+        "pink": "#ec4899",
+        "cyan": "#06b6d4",
+        "amber": "#f59e0b"
+      }
+    }
+  },
+  "pages": [
+    "index.html",
+    "about.html",
+    "services.html",
+    "portfolio.html",
+    "contact.html"
+  ],
+  "images": [
+    "assets/images/portfolio-canva.png",
+    "assets/images/portfolio-uiux.png",
+    "assets/images/portfolio-web.png",
+    "assets/images/profile.png"
+  ],
+  "services": [
+    {
+      "title": "Canva Design",
+      "description": "Eye-catching social media posts, banners, presentations, and marketing materials with professional aesthetics.",
+      "features": [
+        "Social Media Graphics",
+        "Presentations",
+        "Brand Identity"
+      ]
+    },
+    {
+      "title": "UI/UX Design",
+      "description": "Intuitive, beautiful interfaces that prioritize user experience with modern design thinking methodologies.",
+      "features": [
+        "Wireframing",
+        "Prototyping",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Web Development",
+      "description": "Clean, responsive websites built with modern technologies that perform beautifully on any device.",
+      "features": [
+        "HTML & CSS",
+        "Responsive Design",
+        "Python Scripting"
+      ]
+    }
+  ]
+}
